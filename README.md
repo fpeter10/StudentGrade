@@ -9,9 +9,9 @@ A mentés gombbal a jegy mentésre kerül, ha mégse jó, a törlés gombbal leh
 
 Listázni tudja egy tanuló jegyeit adott tárgyból.
 
-Letudja kérdezni az adott tárgy összes átlagát.
+Le tudja kérdezni az adott tárgy összes átlagát.
 
-Letudja kérdezni egy tanuló minden átlagát.
+Le tudja kérdezni egy tanuló minden átlagát.
 
 Egy gomb nyomással kitudja listázni  a gyenge tanulókat, akikkek többet kell foglalkozni, illetve a kiváló tanulókat.
 
