@@ -1,0 +1,2 @@
+# StudentGrade
+Szoftverfejlesztés projekt
