@@ -15,4 +15,4 @@ Le tudja kérdezni egy tanuló minden átlagát.
 
 Egy gomb nyomással kitudja listázni  a gyenge tanulókat, akikkek többet kell foglalkozni, illetve a kiváló tanulókat.
 
-Érvénytelen művelet esetén fiygelmeztetést ad a program
+Érvénytelen művelet esetén figyelmeztetést ad a program.
