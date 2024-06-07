@@ -20,7 +20,7 @@ public class MethodsDefinition {
     }
 
     /**
-     * Választhatő tanulók
+     * Választható tanulók
      */
     public static class StudentListProvider {
         public static final List<Student> studentList = Arrays.asList(
@@ -84,8 +84,7 @@ public class MethodsDefinition {
     }
 
     /**
-     * Random jegyek generlása
-     * @return gradeRecords
+     * Random jegyek generálása
      */
     public static List<StudentGrade> generateRandomGrades() {
         List<Student> studentList = StudentListProvider.studentList;

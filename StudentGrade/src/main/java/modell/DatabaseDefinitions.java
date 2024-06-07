@@ -46,7 +46,7 @@ public class DatabaseDefinitions {
     }
 
     /**
-     * Jegyek kiliztászása
+     * Jegyek liztázása
      */
     public static void databaseList(Student selectedStudent, Subject selectedSubject, ObservableList<String> resultList) {
         int gradeCount = dao.countGradesForStudentAndSubject(selectedStudent.getName(), selectedSubject.getName());
@@ -66,7 +66,6 @@ public class DatabaseDefinitions {
         List<Student> studentList =  MethodsDefinition.StudentListProvider.studentList;
         resultList.clear();
         for (Student selectedStudent : studentList) {
-            assert selectedSubject != null;
             Double averageGrade = dao.getAverageGradeSubject(selectedStudent.getName(), selectedSubject.getName());
             List<Integer> listGrade = dao.listGradesFromSubject(selectedStudent.getName(), selectedSubject.getName());
             PrintMethods.printAverageClass(selectedStudent, selectedSubject, averageGrade, listGrade, resultList);

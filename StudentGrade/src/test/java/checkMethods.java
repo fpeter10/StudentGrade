@@ -5,6 +5,9 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Egység tesztelés
+ */
 public class checkMethods {
 
     @Test
@@ -57,7 +60,7 @@ public class checkMethods {
     }
 
     @Test
-    public void testExcellenttudentNotAccepted() {
+    public void testExcellentStudentNotAccepted() {
         boolean result =  MethodsDefinition.isExcellentStudent(3.98);
         assertFalse(result);
     }
